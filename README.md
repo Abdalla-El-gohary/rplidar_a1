@@ -1,9 +1,5 @@
 # RPLidar A1M8
 
-**:point_right: Very Important :point_left:**
-
-You can adapt, improve, and use the code for your projects as you wish. The author of this repository takes no responsibility for your use or misuse or any damage to your devices!
-
 ## Information
 
 The Python3 scripts for [RPLIDAR A1](https://www.slamtec.com/en/Lidar/A1) run on Linux, macOS, and Windows. 
@@ -99,7 +95,7 @@ $ sudo chmod 0666 /dev/ttyUSB0
 ## Directory Structure
 
 ```
-<your-repo-name>/
+rplidar_a1/
 │   README.md
 │   requirements.txt
 │   test_lidar.py
@@ -107,7 +103,7 @@ $ sudo chmod 0666 /dev/ttyUSB0
 │
 └───rp_lidar/
         __init__.py
-        <your_class_file>.py
+        rp_lidar.py
 ```
 
 The `rp_lidar` directory contains the class implementation for handling RPLidar A1M8.
